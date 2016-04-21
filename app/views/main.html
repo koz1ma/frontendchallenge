@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <h1>Palindrome checker</h1>
+    <form name="form" ng-submit="checkPalindrome()" role="form">
+      <div class="form-group">
+              <label for="name">Type a word:</label>
+              <input type="text" name="word" id="word" class="form-control" ng-model="word"/>
+              <button type="submit" class="btn btn-primary">Check</button>
+              <div id="result">
+                {{result}}
+              </div>
+      </div>
+    </form>
+</div>
